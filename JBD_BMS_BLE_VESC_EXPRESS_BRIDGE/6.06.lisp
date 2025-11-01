@@ -1,6 +1,6 @@
 ; ===============================
 ; ESP-NOW SoC Receiver for VESC
-; VESC 6.05 / 6.06 compatible
+; VESC 6.06 compatible
 ; Receives SoC as string and updates BMS (0.0–1.0)
 ; ===============================
 
