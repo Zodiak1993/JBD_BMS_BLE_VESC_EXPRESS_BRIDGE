@@ -18,7 +18,7 @@ typedef struct
 
 typedef struct
 {
-	uint16_t Volts; // unit 1mV
+	uint32_t Volts; // unit 1mV
 	int32_t Amps;   // unit 1mA
 	int32_t Watts;   // unit 1W
 	uint16_t CapacityRemainAh;
@@ -28,9 +28,11 @@ typedef struct
 	uint32_t CapacityRemainWh; 	//unit Wh
 	uint16_t Temp1;				   //unit 0.1C
 	uint16_t Temp2;				   //unit 0.1C
+  uint16_t Temp3;				   //unit 0.1C
 	uint16_t BalanceCodeLow;
 	uint16_t BalanceCodeHigh;
 	uint8_t MosfetStatus;
+  uint8_t BatterySeries;
 	
 } packBasicInfoStruct;
 
