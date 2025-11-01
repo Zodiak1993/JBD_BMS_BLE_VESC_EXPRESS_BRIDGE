@@ -29,7 +29,7 @@
     (send-bms-can)
 
     ; Debug output
-    (print "Source:" src "RSSI:" rssi)
+    (print "RSSI:" rssi)
     (print "SoC normalized:" soc-f)
   )
 )
